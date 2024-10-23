@@ -5,7 +5,7 @@ import org.testng.ITestContext;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-public class GetUsers {
+public class GetUserTest {
     String b_token = "927e01eb8094f67d282dcdd4f9df99449ad4090aba133e34918dcda88086bb94";
     @Test(priority = 1)
     void getUserTest1(){
